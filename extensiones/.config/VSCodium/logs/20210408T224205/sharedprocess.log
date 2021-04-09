@@ -1,0 +1,6 @@
+[2021-04-08 22:42:12.257] [sharedprocess] [info] Installing extension: eamodio.gitlens
+[2021-04-08 22:42:13.397] [sharedprocess] [info] Downloaded extension: eamodio.gitlens undefined
+[2021-04-08 22:42:13.849] [sharedprocess] [info] Extracted extension to /home/vscodium/.vscode-oss/extensions/.08b27b3e-81f1-401f-9166-3dd98fc2509b: eamodio.gitlens
+[2021-04-08 22:42:13.917] [sharedprocess] [info] Renamed to /home/vscodium/.vscode-oss/extensions/eamodio.gitlens-11.3.0
+[2021-04-08 22:42:13.932] [sharedprocess] [info] Installation completed. eamodio.gitlens
+[2021-04-08 22:42:14.057] [sharedprocess] [info] Extensions installed successfully: eamodio.gitlens

@@ -1,0 +1,54 @@
+[2021-04-08 22:42:09.922] [exthost] [info] extension host started
+[2021-04-08 22:42:09.935] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-04-08 22:42:09.936] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-04-08 22:42:10.042] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-08 22:42:10.042] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/git/dist/main
+[2021-04-08 22:42:10.109] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory {"startup":true,"extensionId":{"value":"donjayamanne.githistory","_lower":"donjayamanne.githistory"},"activationEvent":"*"}
+[2021-04-08 22:42:10.109] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vscodium/.vscode-oss/extensions/donjayamanne.githistory-0.6.16/dist/src/extension
+[2021-04-08 22:42:10.203] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"*"}
+[2021-04-08 22:42:10.203] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vscodium/.vscode-oss/extensions/eamodio.gitlens-10.2.3/dist/extension
+[2021-04-08 22:42:10.483] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":true,"extensionId":{"value":"mhutchie.git-graph","_lower":"mhutchie.git-graph"},"activationEvent":"*"}
+[2021-04-08 22:42:10.483] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vscodium/.vscode-oss/extensions/mhutchie.git-graph-1.29.0/out/extension.js
+[2021-04-08 22:42:10.621] [exthost] [error] Activating extension eamodio.gitlens failed due to an error:
+[2021-04-08 22:42:10.624] [exthost] [error] TypeError: Cannot read property 'includes' of undefined
+	at m (/home/vscodium/.vscode-oss/extensions/eamodio.gitlens-10.2.3/dist/extension.js:1:760385)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+	at async Promise.all (index 3)
+	at async Promise.all (index 0)
+[2021-04-08 22:42:10.687] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-08 22:42:10.687] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/github/dist/extension.js
+[2021-04-08 22:42:10.698] [exthost] [info] eager extensions activated
+[2021-04-08 22:42:10.699] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-04-08 22:42:10.699] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-04-08 22:42:11.107] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-04-08 22:42:11.107] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-04-08 22:42:11.119] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-04-08 22:42:11.119] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-04-08 22:42:11.123] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-04-08 22:42:11.123] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-04-08 22:42:20.343] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-08 22:42:21.355] [exthost] [info] exiting with code 0
+[2021-04-08 22:42:22.838] [exthost] [info] extension host started
+[2021-04-08 22:42:23.152] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-04-08 22:42:23.152] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-04-08 22:42:23.188] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-08 22:42:23.188] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/git/dist/main
+[2021-04-08 22:42:23.204] [exthost] [info] ExtensionService#_doActivateExtension donjayamanne.githistory {"startup":true,"extensionId":{"value":"donjayamanne.githistory","_lower":"donjayamanne.githistory"},"activationEvent":"*"}
+[2021-04-08 22:42:23.204] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vscodium/.vscode-oss/extensions/donjayamanne.githistory-0.6.16/dist/src/extension
+[2021-04-08 22:42:23.294] [exthost] [info] ExtensionService#_doActivateExtension mhutchie.git-graph {"startup":true,"extensionId":{"value":"mhutchie.git-graph","_lower":"mhutchie.git-graph"},"activationEvent":"*"}
+[2021-04-08 22:42:23.294] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vscodium/.vscode-oss/extensions/mhutchie.git-graph-1.29.0/out/extension.js
+[2021-04-08 22:42:23.644] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-08 22:42:23.644] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/github/dist/extension.js
+[2021-04-08 22:42:23.654] [exthost] [info] eager extensions activated
+[2021-04-08 22:42:23.654] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-04-08 22:42:23.654] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-04-08 22:42:23.759] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-04-08 22:42:23.759] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-04-08 22:42:23.764] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-04-08 22:42:23.765] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-04-08 22:42:23.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-04-08 22:42:23.766] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/codium/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-04-08 22:42:23.768] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":false,"extensionId":{"value":"eamodio.gitlens","_lower":"eamodio.gitlens"},"activationEvent":"onStartupFinished"}
+[2021-04-08 22:42:23.768] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/vscodium/.vscode-oss/extensions/eamodio.gitlens-11.3.0/dist/gitlens
+[2021-04-08 22:42:26.981] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-08 22:42:28.049] [exthost] [info] exiting with code 0
