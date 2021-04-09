@@ -1,0 +1,5 @@
+Ejecutar en directorio actual:
+docker run -ti --rm  -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix  -v ./:/home/vscodium/proyecto/ vscodium:1.0 
+
+Truco poner en alias el comando anterior.
+
