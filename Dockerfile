@@ -23,7 +23,9 @@ RUN  chmod +x /home/vscodium/vscodium.sh
 USER vscodium
 ENV HOME=/home/vscodium
 WORKDIR /home/vscodium
-ADD extensiones/punto_vscodium.tar /home/vscodium/.
+# Incluimos extensiones y config
+ADD extensiones/.config     /home/vscodium/.
+ADD extensiones/.vscode-oss /home/vscodium/.
 # Listo para Editar...
 env SHELL /bin/bash
 WORKDIR /home/vscodium
